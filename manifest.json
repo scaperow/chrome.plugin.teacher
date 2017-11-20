@@ -24,6 +24,7 @@
     ],
     "page_action": {
         "default_icon": "images/icon19.png", // optional 
-        "default_title":"Start learn"
+        "default_title":"Start learn",
+        "default_popup": "popup.html"    
     }
 }
