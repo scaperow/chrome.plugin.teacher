@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "Teacher learn",
+    "version": "1.0",
+    "description": "Export zentao to working log",
+    "options_page": "options.html",
+    "icons": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "permissions": [
+        "declarativeContent",
+        "http://*/",
+        "notifications",
+        "storage",
+        "clipboardWrite"
+    ],
+    "page_action": {
+        "default_icon": "images/icon19.png", // optional 
+        "default_title":"Start learn"
+    }
+}
